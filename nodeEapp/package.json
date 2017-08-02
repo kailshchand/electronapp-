@@ -1,0 +1,20 @@
+{
+    "name": "Dhaliwal",
+    "version": "1.0.0",
+    "productName": "Electron Dhaliwal app",
+    "description": "Dhaliwal's Electron World",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "package": "electron-packager . --overwrite --asar=true --platform=win32 --arch=x64 --icon=nodeEapp/icons/fb.png --prune=true --out = released - package--version - string.CompanyName = CE--version - string.FileDescription = CE--version - string.ProductName = \"mitran di App\"",
+        "build": "npm run clean && build:osx && build:win32 && build:win64"
+    },
+    "author": "Ranbir Dhaliwal - dhaliwal@stackance.com",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^1.6.11"
+    },
+    "dependencies": {
+        "nedb": "^1.8.0"
+    }
+}
